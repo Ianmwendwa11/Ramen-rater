@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+#webhead{
+  background: black;
+  color: white;
+  padding: 10px;
+  font-size: 24px;
+}
+#ramen-menu {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding: 10px;
+}
+
+#ramen-menu img {
+  width: 100px; /* Adjust image size */
+  height: 100px;
+  object-fit: cover;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+#ramen-menu img:hover {
+  transform: scale(1.1); /* Enlarge image when hovered */
+}
+
+ 
+        #ramen-details {
+            margin-top: 20px;
+            padding: 20px;
+            border: 2px solid black;
+            display: inline-block;
+            text-align: left;
+        }
+        #ramen-details img {
+            width: 200px;
+            height: 200px;
+            display: block;
+            margin: 0 auto 10px;
+        }
+        .form-container {
+            margin-top: 20px;
+        }
+        .form-container input {
+            display: block;
+            width: 80%;
+            margin: 5px auto;
+            padding: 5px;
+        }
+        .form-container button {
+            background: black;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }

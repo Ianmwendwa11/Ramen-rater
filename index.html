@@ -10,31 +10,28 @@
     
 <body>
 
-    <h1 id="webhead">Ramen Rater</h1>
+    <div id="webhead">Ramen Rater</div>
 
     <div id="ramen-menu">
-        
-
-        <div id="ramen-detail">
-            
-          <h2 id="ramen-name">Select a Ramen</h2>
-          <h3 id="ramen-restaurant"></h3>
-         <p>Rating: <span id="ramen-rating">N/A</span></p>
-         <p>Comment: <span id="ramen-comment">N/A</span></p>
-        </div>
-
+       
     </div>
 
+    <div id="ramen-details">
+        <img src="" alt="Ramen Image" id="ramen-img">
+        <h2 id="ramen-name">Insert Name Here</h2>
+        <h3 id="ramen-restaurant">Insert Restaurant Here</h3>
+        <p><strong>Rating:</strong> <span id="ramen-rating">Insert rating here</span> / 10</p>
+        <p><strong>Comment:</strong> <span id="ramen-comment">Insert comment here</span></p>
+    </div>
 
-    <form id="new-ramen-form">
-        <input type="text" id="name" placeholder="Ramen Name" required>
-        <input type="text" id="restaurant" placeholder="Restaurant" required>
-        <input type="url" id="image" placeholder="Image URL" required>
-        <input type="number" id="rating" placeholder="Rating (1-5)" min="1" max="5" required>
-        <input type="text" id="comment" placeholder="Comment" required>
-        <button type="submit">Add Rate</button>
-    </form>
-
-    
+    <div class="form-container">
+        <h3>Add New Ramen</h3>
+        <input type="text" id="name" placeholder="Name">
+        <input type="text" id="restaurant" placeholder="Restaurant">
+        <input type="text" id="image" placeholder="Image URL">
+        <input type="number" id="rating" placeholder="Rating">
+        <input type="text" id="comment" placeholder="Comment">
+        <button onclick="addRamen()">Create</button>
+    </div>
 </body>
 </html>
