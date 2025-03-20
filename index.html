@@ -4,34 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="javascript" href="index.js">
-    <title>Ramen-rater</title>
+    <script src="index.js"></script>
+    <title>Ramen rater</title>
 </head>
-    
 <body>
+    <header>
+        <h3>Ramen rater</h3>
+    </header>
 
-    <div id="webhead">Ramen Rater</div>
+    <div id="ramen-menu"></div>
 
-    <div id="ramen-menu">
-       
+    <div id="ramen-detail">
+        <img class="detail-image" src="./images.jpg/image-placeholder.jpg" alt="Insert Name Here" />
+        <h2 class="name">Insert Name Here</h2>
+        <h3 class="restaurant">Insert Restaurant Here</h3>
     </div>
+    
+    <h3>Rating:</h3>
+    <p>
+      <span id='rating-display'>Insert rating here</span> / 10
+    </p>
+    <h3>Comment:</h3>
+    <p id='comment-display'>
+      Insert comment here
+    </p>
 
-    <div id="ramen-details">
-        <img src="" alt="Ramen Image" id="ramen-img">
-        <h2 id="ramen-name">Insert Name Here</h2>
-        <h3 id="ramen-restaurant">Insert Restaurant Here</h3>
-        <p><strong>Rating:</strong> <span id="ramen-rating">Insert rating here</span> / 10</p>
-        <p><strong>Comment:</strong> <span id="ramen-comment">Insert comment here</span></p>
-    </div>
-
-    <div class="form-container">
-        <h3>Add New Ramen</h3>
-        <input type="text" id="name" placeholder="Name">
-        <input type="text" id="restaurant" placeholder="Restaurant">
-        <input type="text" id="image" placeholder="Image URL">
-        <input type="number" id="rating" placeholder="Rating">
-        <input type="text" id="comment" placeholder="Comment">
-        <button onclick="addRamen()">Create</button>
-    </div>
 </body>
 </html>
