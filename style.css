@@ -16,7 +16,7 @@ body {
 }
 
 #ramen-menu img {
-  width: 100px; /* Adjust image size */
+  width: 100px; 
   height: 100px;
   object-fit: cover;
   cursor: pointer;
@@ -25,7 +25,7 @@ body {
 }
 
 #ramen-menu img:hover {
-  transform: scale(1.1); /* Enlarge image when hovered */
+  transform: scale(1.1); 
 }
 
  

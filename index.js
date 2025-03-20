@@ -1,12 +1,12 @@
 const ramens = [
-    { id: 1, name: "Shoyu Ramen", restaurant: "Ichiran", image: "images.jpg/shoyu.jpg", rating: 5, comment: "Delicious!" },
-    { id: 2, name: "Naruto Ramen", restaurant: "Menya", image: "images.jpg/naruto.jpg", rating: 4, comment: "Very flavorful!" },
-    { id: 3, name: "gyukotsu Ramen", restaurant: "Ramen-ya", image: "images.jpg/gyukotsu.jpg", rating: 3, comment: "Rich broth!" }
+    { id: 1, name: "Shoyu Ramen", restaurant: "Ichiran", Image: "images.jpg/shoyu.jpg", rating: 5, comment: "Delicious!" },
+    { id: 2, name: "Naruto Ramen", restaurant: "Menya", Image: "images.jpg/naruto.jpg", rating: 4, comment: "Very flavorful!" },
+    { id: 3, name: "gyukotsu Ramen", restaurant: "Ramen-ya", Image: "images.jpg/gyukotsu.jpg", rating: 3, comment: "Rich broth!" }
 ];
 
 function displayRamens() {
     let ramenMenu = document.getElementById("ramen-menu");
-    ramenMenu.innerHTML = ""; // Clear menu before displaying
+    ramenMenu.innerHTML = ""; 
 
     ramens.forEach(ramen => {
         let img = document.createElement("img");
